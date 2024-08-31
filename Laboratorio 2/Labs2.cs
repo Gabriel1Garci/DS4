@@ -3,7 +3,7 @@ using System.Net.Http.Json;
 
 namespace Laboratorio2
 {
-    internal class Program
+    public class Labs2
     {
         static void Main(string[] args)
         {
