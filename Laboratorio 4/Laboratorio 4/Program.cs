@@ -20,8 +20,8 @@ namespace EstructuraRepetoitivaWhile
             x = 1;
             while (x <= n)
             {
-                Console.WriteLine(x);
-                Console.WriteLine(" , ");
+                Console.Write(x);
+                Console.Write(" , ");
                 x = x + 1; 
 
             }
