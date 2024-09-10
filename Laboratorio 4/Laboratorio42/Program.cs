@@ -1,4 +1,4 @@
-﻿namespace EstructuraRepetitivaFor
+﻿namespace Laboratorio4
 {
     class Program
     {

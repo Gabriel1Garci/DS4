@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace EstructuraRepetoitivaWhile
+namespace Laboratorio4
 {
 
     class Program
