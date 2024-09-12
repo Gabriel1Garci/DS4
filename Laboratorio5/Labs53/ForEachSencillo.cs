@@ -1,4 +1,4 @@
-﻿internal class Program
+﻿internal class ForEachSencillo
 {
     private static void Main(string[] args)
     {
