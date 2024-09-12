@@ -8,7 +8,7 @@ internal class PrimerArray
     public void Cargar()
     {
         sueldos = new int[5];
-        for (int f = 0; f < sueldos.Length; f++)
+        for (int f = 0; f <5; f++)
         {
             Console.Write("Ingrese el sueldo del operario " + (f + 1) + ": ");
             string linea = Console.ReadLine();
@@ -19,7 +19,7 @@ internal class PrimerArray
     public void Imprimir()
     {
         Console.WriteLine("Los 5 sueldos de los operarios son:");
-        for (int f = 0; f < sueldos.Length; f++) 
+        for (int f = 0; f <5 ; f++) 
         {
             Console.Write("[" + sueldos[f] + "] ");
         }
