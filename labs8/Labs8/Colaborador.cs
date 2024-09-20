@@ -1,7 +1,7 @@
 ﻿using System;
 
 
-namespace Labs8
+namespace Labs81
 {
     class Colaborador
     {

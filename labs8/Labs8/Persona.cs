@@ -1,6 +1,6 @@
 ﻿using System.IO.IsolatedStorage;
 
-namespace Labs8
+namespace Labs81
 {
     class Persona
     {

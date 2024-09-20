@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Labs8
+namespace Labs81
 {
     class Trabajador : Persona
     {
