@@ -60,6 +60,7 @@
             this.btnSalir.TabIndex = 0;
             this.btnSalir.Text = "Salir";
             this.btnSalir.UseVisualStyleBackColor = true;
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
             // label1
             // 
@@ -150,16 +151,18 @@
             this.tsbCancelar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.tsbCancelar.TabIndex = 11;
             this.tsbCancelar.TabStop = false;
+            this.tsbCancelar.Click += new System.EventHandler(this.tsbCancelar_Click_1);
             // 
             // tsbGuardar
             // 
             this.tsbGuardar.Image = ((System.Drawing.Image)(resources.GetObject("tsbGuardar.Image")));
-            this.tsbGuardar.Location = new System.Drawing.Point(39, 5);
+            this.tsbGuardar.Location = new System.Drawing.Point(39, 7);
             this.tsbGuardar.Name = "tsbGuardar";
             this.tsbGuardar.Size = new System.Drawing.Size(21, 27);
             this.tsbGuardar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.tsbGuardar.TabIndex = 12;
             this.tsbGuardar.TabStop = false;
+            this.tsbGuardar.Click += new System.EventHandler(this.tsbGuardar_Click_1);
             // 
             // tsbEliminar
             // 
@@ -170,6 +173,7 @@
             this.tsbEliminar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.tsbEliminar.TabIndex = 13;
             this.tsbEliminar.TabStop = false;
+            this.tsbEliminar.Click += new System.EventHandler(this.tsbEliminar_Click_1);
             // 
             // tsbNuevo
             // 
@@ -180,6 +184,7 @@
             this.tsbNuevo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.tsbNuevo.TabIndex = 14;
             this.tsbNuevo.TabStop = false;
+            this.tsbNuevo.Click += new System.EventHandler(this.tsbNuevo_Click_1);
             // 
             // tsbBuscar
             // 
@@ -190,6 +195,7 @@
             this.tsbBuscar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.tsbBuscar.TabIndex = 15;
             this.tsbBuscar.TabStop = false;
+            this.tsbBuscar.Click += new System.EventHandler(this.tsbBuscar_Click_1);
             // 
             // frmProductos
             // 
@@ -214,6 +220,7 @@
             this.Controls.Add(this.btnSalir);
             this.Name = "frmProductos";
             this.Text = "Productos";
+            this.Load += new System.EventHandler(this.frmProductos_Load_1);
             ((System.ComponentModel.ISupportInitialize)(this.tsbCancelar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tsbGuardar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tsbEliminar)).EndInit();
